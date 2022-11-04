@@ -1,0 +1,14 @@
+#
+# Deployment environment variables
+#
+
+export DATA_FOLDER="/mnt/shared"
+export APP_FOLDER="/home/usuario/practica2/bitnami"
+export DATABASE_USER="myUserAdmin"
+export DATABASE_NAME="admin"
+export DATABASE_PASSWORD="XnCmV8g7"
+export DATABASE_HOST="172.16.31.2"
+export DATABASE_PORT="27017"
+export DATABASE_CONNECTION_OPTIONS="authSource=admin" # "directConnection=true&authSource=admin"
+export BACKEND_PORT="3000"
+export PATH="/opt/bitnami/nami/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bitnami/node/bin:/opt/bitnami/python/bin:/opt/bitnami/nami/bin"
